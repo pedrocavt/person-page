@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Vitor - Dev</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pedro Vitor - Dev</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav list-group text-right" role="tablist">
+                <a class="nav-item nav-link active" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Sobre <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Experiências</a>
+                <a class="nav-item nav-link" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="list-group sidebar" id="list-tab" role="tablist">
+                    <div class="list-group-item logo">
+                        <h1>P.V</h1>
+                    </div>
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><svg class="bi bi-person" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 00.014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 00.022.004zm9.974.056v-.002.002zM8 7a2 2 0 100-4 2 2 0 000 4zm3-2a3 3 0 11-6 0 3 3 0 016 0z" clip-rule="evenodd"/>
+          </svg>
+          <br/>
+            Sobre mim
+        </a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><svg class="bi bi-layout-text-window-reverse" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2 1h12a1 1 0 011 1v12a1 1 0 01-1 1H2a1 1 0 01-1-1V2a1 1 0 011-1zm12-1a2 2 0 012 2v12a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h12z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M5 15V4H4v11h1zM.5 4h15V3H.5v1zM13 6.5a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h5a.5.5 0 00.5-.5zm0 3a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h5a.5.5 0 00.5-.5zm0 3a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h5a.5.5 0 00.5-.5z" clip-rule="evenodd"/>
+          </svg>
+          <br/>
+            Experiências
+        </a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><svg class="bi bi-envelope" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14 3H2a1 1 0 00-1 1v8a1 1 0 001 1h12a1 1 0 001-1V4a1 1 0 00-1-1zM2 2a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H2z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M.071 4.243a.5.5 0 01.686-.172L8 8.417l7.243-4.346a.5.5 0 01.514.858L8 9.583.243 4.93a.5.5 0 01-.172-.686z" clip-rule="evenodd"/>
+            <path d="M6.752 8.932l.432-.252-.504-.864-.432.252.504.864zm-6 3.5l6-3.5-.504-.864-6 3.5.504.864zm8.496-3.5l-.432-.252.504-.864.432.252-.504.864zm6 3.5l-6-3.5.504-.864 6 3.5-.504.864z"/>
+          </svg>
+        </br>
+            Contato
+        </a>
+
+                </div>
+                <div class="tab-content content-site" id="nav-tabContent">
+                    <div class="tab-pane fade  show active row" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                        <div class=" justify-content-md-center">
+                            <h1 class="title-with-border" style="margin-top:15px">Sobre mim</h1>
+                        </div>
+                        <div class="justify-content-md-center">
+                            <div class="jumbotron">
+                                <div class="media">
+                                    <img src="0.jpg" class="mr-3" alt="...">
+                                    <div class="media-body">
+                                        <h2 class="mt-0">Pedro Vitor</h2>
+                                        <h5 class="mt-0 orange" style="font-weight: 400;margin-bottom: 12px;">
+                                            <svg class="bi bi-flag-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M3.5 1a.5.5 0 01.5.5v13a.5.5 0 01-1 0v-13a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+                                            <path fill-rule="evenodd" d="M3.762 2.558C4.735 1.909 5.348 1.5 6.5 1.5c.653 0 1.139.325 1.495.562l.032.022c.391.26.646.416.973.416.168 0 .356-.042.587-.126a8.89 8.89 0 00.593-.25c.058-.027.117-.053.18-.08.57-.255 1.278-.544 2.14-.544a.5.5 0 01.5.5v6a.5.5 0 01-.5.5c-.638 0-1.18.21-1.734.457l-.159.07c-.22.1-.453.205-.678.287A2.719 2.719 0 019 9.5c-.653 0-1.139-.325-1.495-.562l-.032-.022c-.391-.26-.646-.416-.973-.416-.833 0-1.218.246-2.223.916A.5.5 0 013.5 9V3a.5.5 0 01.223-.416l.04-.026z" clip-rule="evenodd"/>
+                                          </svg> Brasília, DF
+                                        </h5>
+                                        Oi, me chamo Pedro Vitor Rodrigues da Silva, sou Desenvolvedor Web e estou fazendo o curso superior Análise e Desenvolvimento de Sistemas. Fora as disciplinas da faculdade, sempre procuro me especiliazar ainda mais na área de programação através de cursos
+                                        e projetos práticos para ampliar meus conhecimentos. Estou à procura da minha primeira experiência profissional na área de Desenvolvimento Web.
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-4 ">
+                                        <h5 class="orange2">Desenvolvedor Web Junior</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h5 class="orange2">Disponível para contratação</h5>
+                                    </div>
+                                    <div class="col-md-4" style="text-align: center;">
+                                        <a href="https://drive.google.com/file/d/19oiazGGaxQYTQbhUnee5VWlqXUyoRAVZ/view?usp=sharing" target="_blank">
+                                            <button type="button" class="btn btn-warning col-md-12"><h5>Baixar Curriculo</h5></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" justify-content-md-center">
+                            <h1 style="margin-bottom: 30px;" class="title-with-border">Serviços </h1>
+                            <br>
+                        </div>
+                        <div class="justify-content-md-center">
+                            <div class="card" style="width: 18rem;margin: 0 auto;">
+                                <div class="card-body">
+                                    <div class="row justify-content-md-center backg">
+                                        <svg class="bi bi-display" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 010 1H5a.5.5 0 010-1h.75z"/>
+                                        <path fill-rule="evenodd" d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 00-.254.302A1.46 1.46 0 001 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 00.538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 00.254-.302 1.464 1.464 0 00.143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 00-.302-.254A1.46 1.46 0 0013.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" clip-rule="evenodd"/>
+                                        </svg>
+                                    </div>
+                                    <h5 class="orange">Desenvolvedor Front-End</h5>
+                                    <p class="card-text">Html, CSS, JavaScript, NodeJS</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="justify-content-md-center">
+                            <h1 class="title-with-border" style="margin-top:15px">Resumo</h1>
+                        </div>
+                        <div class="row justify-content-md-center" style="padding: 10px;">
+                            <div class="row col-md-12">
+                                <div class="col-md-6">
+                                    <h3 class="title-with-border" style="margin-bottom: 0px; border: none;">Projetos</h3>
+                                    <ul class="timeline">
+                                        <li>
+                                            <h5>DOE</h5>
+                                            <p style="margin-right: 20px;">Doe é um projeto que foi feito para quem tem interesse em fazer doação de sangue. Em sua página principal você encontra algumas informações sobre o assunto e também há um formulário onde você poderá preencher
+                                                e falar seu tipo sanguíneo, que logo após enviar, aparecerá em tela seus dados. (HTML, CSS, JavaScript, NodeJS, PostgreSQL)
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h5>JOGO DA VELHA</h5>
+                                            <p style="margin-right: 20px;">Famoso joguinho que todo mundo conhece, nele você há duas opções, 2 jogadores ou jogar contra o Computador. Também há um placar onde é contabilizada as vitórias de cada um. (HTML, CSS, JavaScript)
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h5>PAGINA PESSOAL</h5>
+                                            <p style="margin-right: 20px;">Aqui criei meu site pessoal, exatamente esse que você se encontra, nele falo um pouco de mim e conto minhas experiências com TI, dos meus serviços e do nível em que estou entre as tecnologias.(HTML, CSS, Twitter
+                                                Bootstrap)
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="title-with-border" style="margin-bottom: 0px; border: none;">Educação</h3>
+                                    <ul class="timeline">
+                                        <li>
+                                            <h5>Análise e Desenvolvimento de Sistemas</h5>
+                                            <h5>2020/Cursando</h5>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="justify-content-md-center">
+                            <h1 class="title-with-border">Habilidades</h1>
+                        </div>
+                        <div class="row justify-content-md-center skill">
+                            <div class="col-md-10 jumbotron">
+                                <span>
+                                    HTML
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%;background-color: #ffff00bd;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><strong>80%</strong></div>
+                                    </div>
+                                </span>
+                                <span>
+                                    CSS
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%;background-color: #ffff00bd;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><strong>75%</strong></div>
+                                    </div>
+                                </span>
+                                <span>
+                                    Twitter Bootstrap
+                                    <div class="progress" style="margin-bottom: 20px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #ffff00bd;;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><strong>70%</strong></div>
+                                    </div>
+                                </span>
+                                <span>
+                                    JavaScript
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #ffff00bd;;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><strong>60%</strong></div>
+                                    </div>
+                                </span>
+                                <span>
+                                    NodeJS
+                                    <div class="progress" style="margin-bottom: 20px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #ffff00bd;;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><strong>60%</strong></div>
+                                    </div>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        <div class="justify-content-md-center">
+                            <h1 class="title-with-border" style="margin-top:15px">Contato</h1>
+                        </div>
+                        <div class="justify-content-md-center">
+                            <div class="row col-md-11" style="max-width: 100%;margin: 0 auto;">
+                                <div class="col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <div class="row justify-content-md-center backg">
+                                                <svg class="bi bi-envelope-open" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" d="M.243 6.929l.514-.858L8 10.417l7.243-4.346.514.858L8 11.583.243 6.93z" clip-rule="evenodd"/>
+                                                    <path fill-rule="evenodd" d="M7.184 10.68L.752 14.432l-.504-.864L6.68 9.816l.504.864zm1.632 0l6.432 3.752.504-.864L9.32 9.816l-.504.864z" clip-rule="evenodd"/>
+                                                    <path fill-rule="evenodd" d="M8.47 1.318a1 1 0 00-.94 0l-6 3.2A1 1 0 001 5.4V14a1 1 0 001 1h12a1 1 0 001-1V5.4a1 1 0 00-.53-.882l-6-3.2zM7.06.435a2 2 0 011.882 0l6 3.2A2 2 0 0116 5.4V14a2 2 0 01-2 2H2a2 2 0 01-2-2V5.4a2 2 0 011.059-1.765l6-3.2z" clip-rule="evenodd"/>
+                                                  </svg>
+                                            </div>
+                                            <h5>Email:</h5>
+                                            <h5 class="orange">pedrocavt@gmail.com</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <div class="row justify-content-md-center backg">
+                                                <svg class="bi bi-phone" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" d="M11 1H5a1 1 0 00-1 1v12a1 1 0 001 1h6a1 1 0 001-1V2a1 1 0 00-1-1zM5 0a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V2a2 2 0 00-2-2H5z" clip-rule="evenodd"/>
+                                                    <path fill-rule="evenodd" d="M8 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+                                                  </svg>
+                                            </div>
+                                            <h5>Telefone:</h5>
+                                            <h5 class="orange">+55 61 998400108</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <div class="row justify-content-md-center backg">
+                                                <svg class="bi bi-people-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 100-6 3 3 0 000 6zm-5.784 6A2.238 2.238 0 015 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 005 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" clip-rule="evenodd"/>
+                                                  </svg>
+                                            </div>
+                                            <h5>LinkedIn:</h5>
+                                            <h5 class="orange"><a href="https://www.linkedin.com/in/pedrovitorr/" style="text-decoration: none; color: #ffff00bd;" target="blank">pedrovitorr</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

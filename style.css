@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+body {
+    background-color: #0e0f10;
+    color: white;
+    font-family: 'Roboto', serif;
+}
+
+.tcenter h1 {
+    text-align: center;
+}
+
+.sidebar {
+    width: 150px;
+    height: 100%;
+    min-height: 100vh;
+    position: fixed;
+    background: #070708;
+    left: 0px;
+}
+
+.sidebar a {
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar a,
+.sidebar a.active,
+.sidebar a:hover,
+.sidebar .logo {
+    background: #070708;
+    text-align: center;
+    border: 0px;
+}
+
+.sidebar .logo {
+    border-bottom: 5px solid #0e0f10;
+    height: 100px;
+    padding: 20px;
+    border-radius: 25px;
+    color: #ffff00bd;
+}
+
+.sidebar a:not(.active) {
+    color: white;
+}
+
+.sidebar a.active {
+    color: #ffff00bd
+}
+
+.sidebar a .bi {
+    font-size: 25px;
+}
+
+.sidebar a.active .bi {
+    font-size: 40px;
+}
+
+.content-site {
+    margin-left: 170px;
+}
+
+.jumbotron,
+.card {
+    background-color: #070708;
+    border: none;
+    border-radius: 20px;
+}
+
+.jumbotron {
+    animation: up 1s ease-out;
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.mr-3 {
+    border-radius: 50%;
+    border: 3px solid #ffff00bd
+}
+
+h5.orange {
+    color: #ffff00bd;
+}
+
+h5.orange2 {
+    color: #ffff00bd;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: 100;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-body .bi {
+    font-size: 40px;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+
+.card-body .backg {
+    height: 70px;
+    width: 70px;
+    background-color: #1d1d22;
+    border-radius: 50%;
+    margin-left: 90px;
+    border: 2px solid #ffff00bd;
+    margin-bottom: 5px;
+}
+
+.card-body:hover {
+    border: 2px solid #ffff00bd;
+    border-radius: 10px;
+}
+
+.title-with-border {
+    border-bottom: 2px solid #ffff00bd;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.btn-warning {
+    background-color: #1d1d22;
+    color: white;
+    transform: 2s;
+    border: none;
+}
+
+.btn-warning:hover {
+    border: 2px solid #ffff00bd;
+    background-color: #1d1d22;
+    color: white;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.skill span .progress {
+    margin-top: 10px;
+    background-color: #1d1d22;
+}
+
+
+/* Time Line */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    background-color: #070708;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #ffff00bd;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    z-index: 400;
+    top: 5px;
+    bottom: 5px;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: #1d1d22;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ffff00bd;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.bg-dark {
+    background-color: #0e0f10!important;
+}
+
+@media(max-width:600px) {
+    #list-tab {
+        display: none;
+    }
+    .tab-content {
+        margin-left: 0px;
+    }
+}
+
+@media(min-width:950px) {
+    .tab-pane {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(min-width:601px) {
+    .bg-dark {
+        display: none;
+    }
+}
+
+@media(max-width:950px) {
+    .media {
+        display: block;
+    }
+    .card {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .card-body .bi {
+        margin: auto;
+    }
+    .media img {
+        margin: 0 auto;
+    }
+    .media h2,
+    .media h5 {
+        text-align: center;
+    }
+    .media img {
+        display: none;
+    }
+    .tab-pane {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+}
